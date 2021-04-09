@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: 1,
     name: 'ماست کم چرب',
     image: '/images/01.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: 2,
     name: 'پنیر سفید',
     image: '/images/02.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: 3,
     name: 'نوشابه مشکی',
     image: '/images/03.jpg',
     description:
