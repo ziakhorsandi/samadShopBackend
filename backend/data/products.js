@@ -31,7 +31,7 @@ const products = [
     brand: 'کوکا',
     category: 'نوشیدنی',
     price: 12000,
-    countInStock: 2,
+    countInStock: 0,
     rating: 4,
     numReviews: 3,
   },
