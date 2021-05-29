@@ -5,6 +5,10 @@ const reviewSchema = mongoose.Schema(
     name: { type: String, required: true },
     rating: { type: Number, required: true },
     comment: { type: String, required: true },
+    createdAt: {
+      type: Date,
+      // required: true,
+    },
     user: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
