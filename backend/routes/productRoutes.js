@@ -26,5 +26,6 @@ router
   .delete(protect, admin, deleteProduct)
   // .put(protect, admin, UpdateProduct);
   .put(protect, admin, upload.single('image'), UpdateProduct);
+router.get('/top', getTopProducts);
 
 export default router;
