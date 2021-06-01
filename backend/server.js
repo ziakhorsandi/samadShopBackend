@@ -21,15 +21,15 @@ const app = express();
 
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
+
+  app.get('/', (req, res) => {
+    res.send('API is running...');
+  });
 }
 
 app.use(express.json());
 
 app.use(cors());
-
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
 
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
